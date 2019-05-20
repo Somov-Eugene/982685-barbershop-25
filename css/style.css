@@ -191,6 +191,10 @@ a {
   line-height: 18px;
 }
 
+.catalog-category {
+  text-transform: none;
+}
+
 .catalog-item-price b {
   font-size: 14px;
   line-height: 20px;
@@ -204,8 +208,34 @@ a {
   color: #ffffff;
 }
 
-.catalog-category {
-  text-transform: none;
+.pagination-list {
+  list-style: none;
+}
+
+.pagination-item a {
+  color: #ffffff;
+
+  background-color: #000000;
+}
+
+.pagination-item a:hover,
+.pagination-item a:focus,
+.pagination-item a:active {
+  background-color: #663d15;
+}
+
+.pagination-item-current a {
+  color: #000000;
+
+  background-color: #ffffff;
+}
+
+.pagination-item-current a:hover,
+.pagination-item-current a:focus,
+.pagination-item-current a:active {
+  color: #000000;
+
+  background-color: #ffffff;
 }
 
 .main-footer {
